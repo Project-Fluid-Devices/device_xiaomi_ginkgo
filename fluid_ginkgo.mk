@@ -52,6 +52,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Fluid
+FLUID_BUILD_TYPE := OFFICIAL
 PRODUCT_PRODUCT_PROPERTIES += \
   ro.fluid.maintainer=YaAlex \
   ro.fluid.cpu=SD665
