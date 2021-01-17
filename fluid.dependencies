@@ -24,5 +24,11 @@
         "repository":   "ThankYouMario/proprietary_vendor_qcom_sdclang",
         "target_path":  "prebuilts/clang/host/linux-x86/clang-sdllvm",
         "revision":     "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_external_exfatprogs",
+        "target_path":  "external/exfatprogs",
+        "revision":     "lineage-18.1"
     }
 ]
