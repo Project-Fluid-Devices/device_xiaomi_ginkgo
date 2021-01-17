@@ -30,5 +30,11 @@
         "repository":   "LineageOS/android_external_exfatprogs",
         "target_path":  "external/exfatprogs",
         "revision":     "lineage-18.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ArrowOS/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sm8150/display",
+        "revision":     "arrow-11.0-caf-sm8150"
     }
 ]
