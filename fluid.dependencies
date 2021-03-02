@@ -1,21 +1,36 @@
 [
     {
-        "repository":   "android_kernel_xiaomi_ginkgo",
+        "remote":       "fluid-devices",
+        "repository":   "kernel_xiaomi_ginkgo",
         "target_path":  "kernel/xiaomi/ginkgo"
     },
     {
-        "repository":   "android_vendor_xiaomi_ginkgo",
+        "remote":       "fluid-devices",
+        "repository":   "vendor_xiaomi_ginkgo",
         "target_path":  "vendor/xiaomi/ginkgo"
-    },
-    {
-        "repository":   "android_vendor_miuicamera",
-        "target_path":  "vendor/miuicamera",
-        "branch":       "arrow-11.0-a3"
     },
     {
         "remote":       "github",
         "repository":   "ThankYouMario/proprietary_vendor_qcom_sdclang",
         "target_path":  "prebuilts/clang/host/linux-x86/clang-sdllvm",
         "branch":       "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_external_exfatprogs",
+        "target_path":  "external/exfatprogs",
+        "branch":       "lineage-18.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ArrowOS/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sm8150/display",
+        "branch":       "arrow-11.0-caf-sm8150"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
+        "branch":       "ruby-a3"
     }
 ]
