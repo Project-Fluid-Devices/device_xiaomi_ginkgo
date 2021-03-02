@@ -470,6 +470,15 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
     disabled
     oneshot
 
+service thermal-engine /system/vendor/bin/thermal-engine
+   class main
+   user root
+   socket thermal-send-client stream 0666 system system
+   socket thermal-recv-client stream 0660 system system
+   socket thermal-recv-passive-client stream 0666 system system
+   socket thermal-send-rule stream 0660 system system
+   group root
+
 on property:vendor.dcvs.prop=1
    start dcvs-sh
 
