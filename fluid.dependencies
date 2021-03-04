@@ -32,5 +32,11 @@
         "repository":   "AOSPA/android_vendor_miuicamera",
         "target_path":  "vendor/miuicamera",
         "branch":       "ruby-a3"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ArrowOS/android_vendor_qcom_opensource_power",
+        "target_path":  "vendor/qcom/opensource/power",
+        "branch":       "arrow-11.0"
     }
 ]
