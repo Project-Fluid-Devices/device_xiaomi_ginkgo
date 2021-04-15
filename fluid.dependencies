@@ -23,9 +23,8 @@
     },
     {
         "remote":       "github",
-        "repository":   "ArrowOS/android_hardware_qcom_display",
-        "target_path":  "hardware/qcom-caf/sm8150/display",
-        "branch":       "arrow-11.0-caf-sm8150"
+        "repository":   "YaAlex3/hardware_qcom-caf_trinket_display",
+        "target_path":  "hardware/qcom-caf/sm8150/display"
     },
     {
         "remote":       "github",
