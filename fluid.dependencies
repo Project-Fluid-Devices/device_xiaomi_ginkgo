@@ -17,12 +17,6 @@
     },
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_external_exfatprogs",
-        "target_path":  "external/exfatprogs",
-        "branch":       "lineage-18.1"
-    },
-    {
-        "remote":       "github",
         "repository":   "YaAlex3/hardware_qcom-caf_trinket_display",
         "target_path":  "hardware/qcom-caf/sm8150/display"
     },
